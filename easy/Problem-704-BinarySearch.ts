@@ -1,6 +1,7 @@
+// simple and basic binary search would do
 function search(nums: number[], target: number): number {
   let start: number = 0,
-    end: number = nums.length;
+    end: number = nums.length - 1;
 
   while (start <= end) {
     const mid = Math.floor((start + end) / 2);
