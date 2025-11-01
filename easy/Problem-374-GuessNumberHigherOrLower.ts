@@ -7,6 +7,7 @@
  * var guess = function(num) {}
  */
 
+//  simple binary search, comparison returned by guess mock api
 function guessNumber(n: number): number {
   let start: number = 1,
     end: number = n;
