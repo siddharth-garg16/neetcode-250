@@ -7,6 +7,8 @@
 // e.g. [1, 2, 2, 4, 4, 5]; => if searched for 3, return 2 that is on index 2
 // [1, 2, 2, 3, 3, 3, 4, 5] => if searched for 3, return 3 that is on index 5
 
+// it can be broken down in this format, in a sorted array where numbers can be duplicate, return the rightmost(latest) element that matches the target
+// and if target doesn't exist return the rightmost smaller value than target
 class TimeMap {
   private entries;
 
