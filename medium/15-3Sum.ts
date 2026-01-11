@@ -1,4 +1,5 @@
 function threeSum(nums: number[]): number[][] {
+  // key observation: i, j and k all should be distinct
   // sorting the array to remove the duplicate entries in the ans
   // it would allow us to skip pointers over the duplicate elements
   nums.sort((a, b) => a - b);
